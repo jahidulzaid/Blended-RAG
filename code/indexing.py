@@ -15,8 +15,7 @@ from elasticsearch.exceptions import RequestError
 
 
 ## Replace elastic instance here
-es_client = Elasticsearch("https://esuser:espassword8@eshost:port",  ca_certs=False,
-                   verify_certs=False)
+es_client = Elasticsearch("http://localhost:9200")
 es_client.info()
 
 ## Download model for KNN
