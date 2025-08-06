@@ -330,6 +330,6 @@ with open('./input/search_query/BM25/bm25_best.txt', 'r') as file:
 
 ## If you need to replace any file or  other query basis of Your index you can use the respective folders
 index_name ="research_index_bm25"
-df_questions =pd.read_csv("input question file")
+df_questions =pd.read_csv(".input/added_ij/questions.csv")
 
 processESIndex_RAG(df_questions,index_name,search_query)

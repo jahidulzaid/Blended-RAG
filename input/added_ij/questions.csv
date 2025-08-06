@@ -1,0 +1,6 @@
+question_id,question_text,category
+1,What is the impact of climate change?,Environment
+2,How does machine learning improve search?,Technology
+3,Benefits of a balanced diet?,Health
+4,What are the symptoms of COVID-19?,Health
+5,How to optimize Elasticsearch queries?,Technology
