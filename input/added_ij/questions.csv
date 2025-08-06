@@ -1,6 +1,61 @@
-question_id,question_text,category
-1,What is the impact of climate change?,Environment
-2,How does machine learning improve search?,Technology
-3,Benefits of a balanced diet?,Health
-4,What are the symptoms of COVID-19?,Health
-5,How to optimize Elasticsearch queries?,Technology
+{
+  "data": [
+    {
+      "title": "Climate Change",
+      "paragraphs": [
+        {
+          "context": "Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but human activities have been the main driver of climate change since the 1800s, primarily due to burning fossil fuels like coal, oil and gas.",
+          "qas": [
+            {
+              "question": "What is the main driver of climate change since the 1800s?",
+              "answers": [
+                {
+                  "text": "burning fossil fuels like coal, oil and gas",
+                  "answer_start": 167
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "paragraphs": [
+        {
+          "context": "Machine learning is a subset of artificial intelligence that allows computers to learn from data without being explicitly programmed. It is widely used in applications such as recommendation systems, image recognition, and natural language processing.",
+          "qas": [
+            {
+              "question": "What is machine learning a subset of?",
+              "answers": [
+                {
+                  "text": "artificial intelligence",
+                  "answer_start": 36
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Healthy Diet",
+      "paragraphs": [
+        {
+          "context": "A healthy diet includes a variety of fruits and vegetables, whole grains, lean proteins, and limited processed foods. It helps maintain body weight, supports immune function, and reduces the risk of chronic diseases.",
+          "qas": [
+            {
+              "question": "What does a healthy diet include?",
+              "answers": [
+                {
+                  "text": "a variety of fruits and vegetables, whole grains, lean proteins, and limited processed foods",
+                  "answer_start": 24
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
