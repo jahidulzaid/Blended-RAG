@@ -102,7 +102,7 @@ with open('./input/mapping/sparse_encoder.txt', 'r') as file:
 create_index(index_name_elser,mapping)
 
 ## Define folder name 
-doc_folder_msmarco = '/Users/abhilashamangal/Documents/Semantic Search/data/msmarco/'
+doc_folder_msmarco = './input/msmarco_ans_small'
 files_msmarco = get_all_files(doc_folder_msmarco)
 df_corpus = pd.read_json(files_msmarco[2],lines=True)
 
